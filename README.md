@@ -1,6 +1,6 @@
 # uic_ldap
 
-PHP Library for using the UIC LDAP
+PHP Library for using UIC LDAP
 
 
 ## Usage
