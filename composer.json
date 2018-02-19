@@ -1,0 +1,21 @@
+{
+  "name": "dpazuic/uic_ldap",
+  "type": "library",
+  "description": "Wrapper for contacting UIC LDAP",
+  "homepage": "https://github.com/dpazuic/uic_ldap",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Paz-Horta",
+      "email": "dpaz@uic.edu",
+      "homepage": "https://dpaz.people.uic.edu/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">5.3.0"
+  },
+  "autoload": {
+    "psr-4": {"dpazuic\\": "src/"}
+  }
+}
