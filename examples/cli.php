@@ -22,7 +22,7 @@ facsimiletelephonenumber, telephonenumber or postaladdress");
         throw new Exception("Error: Value to query LDAP must be specified. Can either be single string or comma delimited list without spaces, eg. \"dpaz,sparky.\"");
     }
 
-    // Instantiate LDAPee
+    // Instantiate LDAP
     $ldap = new UicLdap($argv[1]);
 
     // Check to see if $argv[2] is a comma delimited list
