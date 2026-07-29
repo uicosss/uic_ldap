@@ -6,9 +6,12 @@
  * Time: 11:23 AM
  */
 
-namespace dpazuic;
+namespace Uicosss;
 
-abstract class allowedAttributes extends \dpazuic\utilities\BasicEnum {
+use Uicosss\Utilities\BasicEnum;
+
+abstract class allowedAttributes extends BasicEnum
+{
     const ou = 'ou';
     const uid = 'uid';
     const displayname = 'displayname';
